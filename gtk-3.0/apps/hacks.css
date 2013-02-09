@@ -1,0 +1,10 @@
+/**************************
+ * Ubuntu software center *
+ **************************/
+
+GtkTreeView,
+GtkViewport,
+.super-light-aubergine-bg {
+        background-image: -gtk-gradient (linear, left top, left bottom, from(@base_normal), to(@base_normal));
+}
+

@@ -1,0 +1,66 @@
+/* 
+    
+	Darkness: Dark gtk3 theme.
+
+
+	Briefly, the colors are:
+
+		text: text for entries and text widgets (although in GTK 1.2 sometimes fg gets used, this is more or less a bug and fixed in GTK 2.0).
+		base: background when using text, colored white in the default theme.
+		fg: foreground for drawing GtkLabel
+		bg: the usual background color, gray by default 
+
+	The states are:
+
+		normal: normal state.
+		active: pressed-in or activated; e.g. buttons while the mouse button is held down.
+		prelight: color when the mouse is over an activatable widget.
+		insensitive: color when the widget is disabled (gtk_widget_set_sensitive() disables a widget).
+		selected: color when something is selected, e.g. when selecting some text to cut/copy. 
+*/
+
+
+@define-color base_active #2f51a0;
+@define-color base_insensitive #303030;
+@define-color base_normal #121212;
+@define-color base_prelight #002849;
+@define-color base_selected #003263;
+
+@define-color bg_active #303030;
+@define-color bg_insensitive #505050;
+@define-color bg_normal #464646;
+@define-color bg_prelight #003263;
+@define-color bg_selected #002849;
+
+@define-color fg_active #eaeaea;
+@define-color fg_insensitive #b0b0b0;
+@define-color fg_normal #fff;
+@define-color fg_prelight #fcfcfc;
+@define-color fg_selected #fcfcfc;
+
+@define-color text_active #fcfcfc;
+@define-color text_insensitive #fcfcfc;
+@define-color text_normal #fcfcfc;
+@define-color text_prelight #fcfcfc;
+@define-color text_selected #fcfcfc;
+
+@define-color text_link #00f;
+
+@define-color scrollbar_normal #8d8d8d; /* scrollbar inactive foreground */
+
+@define-color progressbar_bg_normal #000; /* progressbar background */
+
+@define-color transparent rgba(0, 0, 0, 0);
+
+@define-color info #465046;
+@define-color warning #806046;
+@define-color question #464680;
+@define-color error #804646;
+
+/* mixed colors */
+
+@define-color bg_insensitive_active mix(@bg_insensitive, @bg_active, 0.5);
+
+@import url("gtk-widgets.css");
+@import url("apps/hacks.css");
+

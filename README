@@ -1,0 +1,40 @@
+Darkness Xfce GTK2 + GTK3 theme by V. Kuzel <vkuzel@gmail.com> primarily 
+designed for XFCE4 on Xubuntu 12.04. You can get latest version from
+GitHub https://github.com/vkuzel/Xfce-darkness
+
+Version: 1.0
+
+GTK2 theme
+----------
+
+Based on `Dusk' by James Golden <chibifs@studiochibico.com>
+And it was based on 'Dawn' by Olivier Fourdan <fourdan@xfce.org>
+
+GTK3 theme
+----------
+
+Based on `Bluebird' by Simon Steinbeiß
+And it was based on `Zukitwo' BY lassekongo83
+
+Installation
+------------
+
+1) Copy theme folder `Xfce-darkness' into ~/.themes/ directory.
+
+2) Make sure you have `murrine' and `unico' engines installed. If you don't
+   you can do: `sudo apt-get install gtk2-engines-murrine gtk3-engines-unico`
+
+3) As a window manager theme you can use `Albatross'.
+
+Troubleshooting
+---------------
+
+You can file a bug on GitHub https://github.com/vkuzel/Xfce-darkness/issues or
+you can send me an email to <vkuzel@gmail.com>. Please make a screenshot of
+a problem and describe application which causes it. Don't forget to add version
+of theme which can be found on top of this README file.
+
+License
+-------
+
+GPL
