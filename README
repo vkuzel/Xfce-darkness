@@ -16,6 +16,11 @@ GTK3 theme
 Based on `Bluebird' by Simon Steinbeiß
 And it was based on `Zukitwo' BY lassekongo83
 
+Firefox "theme"
+---------------
+
+Just change of default form fields color.
+
 Installation
 ------------
 
@@ -25,6 +30,9 @@ Installation
    you can do: `sudo apt-get install gtk2-engines-murrine gtk3-engines-unico`
 
 3) As a window manager theme you can use `Albatross'.
+
+4) Copy content of `firefox' directory to
+   ~/.mozilla/firefox/<some_hash>.default/chrome/ directory.
 
 Troubleshooting
 ---------------
