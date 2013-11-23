@@ -36,7 +36,7 @@ style "default"
     base[INSENSITIVE] = "#303030"
     base[NORMAL]      = "#121212"
     base[PRELIGHT]    = "#002849"
-    base[SELECTED]    = "#003263"
+    base[SELECTED]    = "#133263"
 
     bg[ACTIVE]        = "#303030"
     bg[INSENSITIVE]   = "#505050"
