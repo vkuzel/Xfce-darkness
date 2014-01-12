@@ -82,9 +82,28 @@ GtkWindow {
  * states *
  **********/
 
+.background {
+    color: @fg_normal;
+    background-color: @bg_normal;
+}
+
+.background.client-decorated {
+    background-color: transparent;
+}
+
+.background.window-content {
+    background-color: @bg_normal;
+}
+
+GtkClutterOffscreen {
+    color: @fg_normal;
+    background-color: @bg_normal;
+}
+
 * {
-	color: @fg_normal;
-	background-color: @bg_normal;
+    /* inherit colors from parent */
+    color: inherit;
+    background-color: inherit;
 }
 
 *:active {
