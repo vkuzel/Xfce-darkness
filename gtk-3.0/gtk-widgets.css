@@ -744,4 +744,7 @@ GtkAssistant .sidebar .highlight {
 	color: @fg_normal;
 }
 
-
+GtkHTML {
+    color: @fg_normal;
+    background-color: @bg_normal;
+}
