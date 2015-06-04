@@ -34,13 +34,11 @@ Installation
 4) Copy content of `firefox' directory to
    ~/.mozilla/firefox/<some_hash>.default/chrome/ directory.
 
-Troubleshooting
----------------
+Project status
+--------------
 
-You can file a bug on GitHub https://github.com/vkuzel/Xfce-darkness/issues or
-you can send me an email to <vkuzel@gmail.com>. Please make a screenshot of
-a problem and describe application which causes it. Don't forget to add version
-of theme which can be found on top of this README file.
+Sorry guys but this project is no more maintained. I switched from Linux to OSX
+recently so I am not working on this project anymore.
 
 License
 -------
