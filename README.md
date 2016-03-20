@@ -26,10 +26,10 @@ Just change of default form fields color.
 Installation
 ------------
 
-1) Copy theme folder `Xfce-darkness` into your `~/.themes/` directory.
-2) Make sure you have `murrine` engine installed. If you don't you can run `sudo apt-get install gtk2-engines-murrine`
-3) As a window manager theme you can use `Albatross`.
-4) Copy content of `firefox` directory to `~/.mozilla/firefox/<some_hash>.default/chrome/` directory.
+1. Copy theme folder `Xfce-darkness` into your `~/.themes/` directory.
+2. Make sure you have `murrine` engine installed. If you don't you can run `sudo apt-get install gtk2-engines-murrine`
+3. As a window manager theme you can use `Albatross`.
+4. Copy content of `firefox` directory to `~/.mozilla/firefox/<some_hash>.default/chrome/` directory.
 
 Project status
 --------------
