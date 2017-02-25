@@ -34,7 +34,7 @@ Installation
 Project status
 --------------
 
-Sorry guys but this project is no more maintained. I switched from Linux to OSX recently so I am not working on this project anymore.
+Sorry guys but this project is not maintained anymore. I switched to OSX recently so I am not working using the theme.
 
 License
 -------
